@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67C534C22C8CB0F900B0F054 /* timetopee WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 67C534C12C8CB0F900B0F054 /* timetopee WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67C534C72C8CB10700B0F054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C534C62C8CB10700B0F054 /* Assets.xcassets */; };
+		67C534CE2C8CB10700B0F054 /* timetopee WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 67C534CD2C8CB10700B0F054 /* timetopee WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		67C534D32C8CB10800B0F054 /* timetopeeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C534D22C8CB10800B0F054 /* timetopeeApp.swift */; };
+		67C534D52C8CB10800B0F054 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C534D42C8CB10800B0F054 /* ContentView.swift */; };
+		67C534D72C8CB10800B0F054 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C534D62C8CB10800B0F054 /* NotificationController.swift */; };
+		67C534D92C8CB10800B0F054 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C534D82C8CB10800B0F054 /* NotificationView.swift */; };
+		67C534DB2C8CB10800B0F054 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C534DA2C8CB10800B0F054 /* ComplicationController.swift */; };
+		67C534DD2C8CB11500B0F054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C534DC2C8CB11500B0F054 /* Assets.xcassets */; };
+		67C534E02C8CB11500B0F054 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C534DF2C8CB11500B0F054 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67C534C32C8CB0F900B0F054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C534B72C8CB0F800B0F054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C534C02C8CB0F900B0F054;
+			remoteInfo = "timetopee WatchKit App";
+		};
+		67C534CF2C8CB10800B0F054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67C534B72C8CB0F800B0F054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C534CC2C8CB10700B0F054;
+			remoteInfo = "timetopee WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67C534E82C8CB11500B0F054 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				67C534CE2C8CB10700B0F054 /* timetopee WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C534EC2C8CB11500B0F054 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				67C534C22C8CB0F900B0F054 /* timetopee WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		67C534BD2C8CB0F800B0F054 /* timetopee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timetopee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C534C12C8CB0F900B0F054 /* timetopee WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "timetopee WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C534C62C8CB10700B0F054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67C534C82C8CB10700B0F054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C534CD2C8CB10700B0F054 /* timetopee WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "timetopee WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C534D22C8CB10800B0F054 /* timetopeeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timetopeeApp.swift; sourceTree = "<group>"; };
+		67C534D42C8CB10800B0F054 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67C534D62C8CB10800B0F054 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		67C534D82C8CB10800B0F054 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		67C534DA2C8CB10800B0F054 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		67C534DC2C8CB11500B0F054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67C534DF2C8CB11500B0F054 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67C534E12C8CB11500B0F054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C534E22C8CB11500B0F054 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67C534CA2C8CB10700B0F054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67C534B62C8CB0F800B0F054 = {
+			isa = PBXGroup;
+			children = (
+				67C534C52C8CB0F900B0F054 /* timetopee WatchKit App */,
+				67C534D12C8CB10800B0F054 /* timetopee WatchKit Extension */,
+				67C534BE2C8CB0F800B0F054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67C534BE2C8CB0F800B0F054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67C534BD2C8CB0F800B0F054 /* timetopee.app */,
+				67C534C12C8CB0F900B0F054 /* timetopee WatchKit App.app */,
+				67C534CD2C8CB10700B0F054 /* timetopee WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67C534C52C8CB0F900B0F054 /* timetopee WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				67C534C62C8CB10700B0F054 /* Assets.xcassets */,
+				67C534C82C8CB10700B0F054 /* Info.plist */,
+			);
+			path = "timetopee WatchKit App";
+			sourceTree = "<group>";
+		};
+		67C534D12C8CB10800B0F054 /* timetopee WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67C534D22C8CB10800B0F054 /* timetopeeApp.swift */,
+				67C534D42C8CB10800B0F054 /* ContentView.swift */,
+				67C534D62C8CB10800B0F054 /* NotificationController.swift */,
+				67C534D82C8CB10800B0F054 /* NotificationView.swift */,
+				67C534DA2C8CB10800B0F054 /* ComplicationController.swift */,
+				67C534DC2C8CB11500B0F054 /* Assets.xcassets */,
+				67C534E12C8CB11500B0F054 /* Info.plist */,
+				67C534E22C8CB11500B0F054 /* PushNotificationPayload.apns */,
+				67C534DE2C8CB11500B0F054 /* Preview Content */,
+			);
+			path = "timetopee WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		67C534DE2C8CB11500B0F054 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67C534DF2C8CB11500B0F054 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67C534BC2C8CB0F800B0F054 /* timetopee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C534ED2C8CB11500B0F054 /* Build configuration list for PBXNativeTarget "timetopee" */;
+			buildPhases = (
+				67C534BB2C8CB0F800B0F054 /* Resources */,
+				67C534EC2C8CB11500B0F054 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C534C42C8CB0F900B0F054 /* PBXTargetDependency */,
+			);
+			name = timetopee;
+			productName = timetopee;
+			productReference = 67C534BD2C8CB0F800B0F054 /* timetopee.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		67C534C02C8CB0F900B0F054 /* timetopee WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C534E92C8CB11500B0F054 /* Build configuration list for PBXNativeTarget "timetopee WatchKit App" */;
+			buildPhases = (
+				67C534BF2C8CB0F900B0F054 /* Resources */,
+				67C534E82C8CB11500B0F054 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67C534D02C8CB10800B0F054 /* PBXTargetDependency */,
+			);
+			name = "timetopee WatchKit App";
+			productName = "timetopee WatchKit App";
+			productReference = 67C534C12C8CB0F900B0F054 /* timetopee WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		67C534CC2C8CB10700B0F054 /* timetopee WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67C534E52C8CB11500B0F054 /* Build configuration list for PBXNativeTarget "timetopee WatchKit Extension" */;
+			buildPhases = (
+				67C534C92C8CB10700B0F054 /* Sources */,
+				67C534CA2C8CB10700B0F054 /* Frameworks */,
+				67C534CB2C8CB10700B0F054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "timetopee WatchKit Extension";
+			productName = "timetopee WatchKit Extension";
+			productReference = 67C534CD2C8CB10700B0F054 /* timetopee WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67C534B72C8CB0F800B0F054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					67C534BC2C8CB0F800B0F054 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					67C534C02C8CB0F900B0F054 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					67C534CC2C8CB10700B0F054 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 67C534BA2C8CB0F800B0F054 /* Build configuration list for PBXProject "timetopee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67C534B62C8CB0F800B0F054;
+			productRefGroup = 67C534BE2C8CB0F800B0F054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67C534BC2C8CB0F800B0F054 /* timetopee */,
+				67C534C02C8CB0F900B0F054 /* timetopee WatchKit App */,
+				67C534CC2C8CB10700B0F054 /* timetopee WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67C534BB2C8CB0F800B0F054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C534BF2C8CB0F900B0F054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C534C72C8CB10700B0F054 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67C534CB2C8CB10700B0F054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C534E02C8CB11500B0F054 /* Preview Assets.xcassets in Resources */,
+				67C534DD2C8CB11500B0F054 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67C534C92C8CB10700B0F054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C534D72C8CB10800B0F054 /* NotificationController.swift in Sources */,
+				67C534D52C8CB10800B0F054 /* ContentView.swift in Sources */,
+				67C534DB2C8CB10800B0F054 /* ComplicationController.swift in Sources */,
+				67C534D32C8CB10800B0F054 /* timetopeeApp.swift in Sources */,
+				67C534D92C8CB10800B0F054 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67C534C42C8CB0F900B0F054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C534C02C8CB0F900B0F054 /* timetopee WatchKit App */;
+			targetProxy = 67C534C32C8CB0F900B0F054 /* PBXContainerItemProxy */;
+		};
+		67C534D02C8CB10800B0F054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C534CC2C8CB10700B0F054 /* timetopee WatchKit Extension */;
+			targetProxy = 67C534CF2C8CB10800B0F054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67C534E32C8CB11500B0F054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67C534E42C8CB11500B0F054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67C534E62C8CB11500B0F054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"timetopee WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZG2YG82L4N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "timetopee WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gynsolomon.timetopee.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		67C534E72C8CB11500B0F054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"timetopee WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = ZG2YG82L4N;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "timetopee WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gynsolomon.timetopee.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		67C534EA2C8CB11500B0F054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG2YG82L4N;
+				IBSC_MODULE = timetopee_WatchKit_Extension;
+				INFOPLIST_FILE = "timetopee WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gynsolomon.timetopee.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		67C534EB2C8CB11500B0F054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZG2YG82L4N;
+				IBSC_MODULE = timetopee_WatchKit_Extension;
+				INFOPLIST_FILE = "timetopee WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gynsolomon.timetopee.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		67C534EE2C8CB11500B0F054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZG2YG82L4N;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gynsolomon.timetopee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		67C534EF2C8CB11500B0F054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZG2YG82L4N;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gynsolomon.timetopee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67C534BA2C8CB0F800B0F054 /* Build configuration list for PBXProject "timetopee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C534E32C8CB11500B0F054 /* Debug */,
+				67C534E42C8CB11500B0F054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C534E52C8CB11500B0F054 /* Build configuration list for PBXNativeTarget "timetopee WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C534E62C8CB11500B0F054 /* Debug */,
+				67C534E72C8CB11500B0F054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C534E92C8CB11500B0F054 /* Build configuration list for PBXNativeTarget "timetopee WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C534EA2C8CB11500B0F054 /* Debug */,
+				67C534EB2C8CB11500B0F054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67C534ED2C8CB11500B0F054 /* Build configuration list for PBXNativeTarget "timetopee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67C534EE2C8CB11500B0F054 /* Debug */,
+				67C534EF2C8CB11500B0F054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67C534B72C8CB0F800B0F054 /* Project object */;
+}
